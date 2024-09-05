@@ -29,9 +29,13 @@ You can also use custom training data in the following format:
 ```
 
 ### Training 
-```
-pip install -r requirements.txt
-```
+In the experiment, we consider the following five design combinations:
+* Model 1: EOS-Last Token Pooling + Causal Attention
+* Model 2: Last-Layer Trainable Pooling + Causal Attention
+* Model 3: Multi-Layers Trainable Pooling+ Causal Attention
+* Model 4: Last-Layer Trainable Pooling + Bidirectional Attention
+* Model 5: Multi-Layers Trainable Pooling+ Bidirectional attention
+
 Different models have different trainers, so choose one to fit your needs.
 
 ```
