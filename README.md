@@ -90,7 +90,7 @@ adapter_path = "Lora Adapter"
 output_dir = "Log File Path"
 cache_dir = "Hugging Face Cache"
 ```
-## Trained Adapters:
+## 🌟 Trained Adapters:
 
 [Download link](https://hkustconnect-my.sharepoint.com/:f:/g/personal/ytangch_connect_ust_hk/EnOlSfvqhyROvaZxjsR8_dcBh3ZHdw9r8Ge-ZwYlFH0CeQ?e=5GTxpV)
 
