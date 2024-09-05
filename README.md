@@ -1,16 +1,15 @@
 
 ## Pooling And Attention: What Are Effective Designs For LLM-Based Embedding Models?
-
-
+![data.jpg](resource/data.jpg)
 ### 💡Introduction
 In this study, we conduct a large-scale experiment by training a series of LLM-based embedding models using the same training data and base model but differing in their pooling and attention strategies. The results show that there is no one-size-fits-all solution: while bidirectional attention and an additional trainable pooling layer outperform in text similarity and information retrieval tasks, they do not significantly surpass simpler designs like EOS-last token pooling and default causal attention in clustering and classification tasks.Furthermore, we propose a new pooling strategy, Multi-Layers Trainable Pooling, which transforms the outputs of all hidden layers, rather than just the last layer,
 using a cross-attention network.
 
-![r.jpg](resource/method.png)
+![data.jpg](resource/method.png)
+📚 **Paper Link:** [Pooling And Attention: What Are Effective Designs For LLM-Based Embedding Models?"](https://arxiv.org/abs/2409.02727)
 
-📃 **Paper Link:** [Pooling And Attention: What Are Effective Designs For LLM-Based Embedding Models?"](https://arxiv.org/abs/2409.02727)
+## 💻 Codes
 
----
 ### Data
 Training Data is hosted on HuggingFace: [yixuantt/ir_data](https://huggingface.co/datasets/yixuantt/ir_data)
 
@@ -94,6 +93,5 @@ cache_dir = "Hugging Face Cache"
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2409.02727}, 
 }
-
 ```
 
