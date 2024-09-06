@@ -99,7 +99,7 @@ Here are the Lora adapters used in the paper, please download from the link:
 ### Citation
 ```
 @misc{poolingattentioneffectivedesigns,
-      title={Pooling And Attention: What Are Effective Designs For LLm-Based Embedding Models?}, 
+      title={Pooling And Attention: What Are Effective Designs For LLM-Based Embedding Models?}, 
       author={Yixuan Tang and Yi Yang},
       year={2024},
       eprint={2409.02727},
