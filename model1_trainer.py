@@ -322,7 +322,6 @@ def main():
 
     trainer.train()
     model.model.save_pretrained(training_args.output_dir)      
-    torch.save(model.attn_pool.state_dict(),training_args.output_dir+"attn_pool.pt")
     tokenizer.save_pretrained(training_args.output_dir)
     
 if __name__ == "__main__":
